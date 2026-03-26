@@ -8,7 +8,7 @@ CentOS / RHEL / Linux machine
 Internet connection
 VPN details:
 Gateway IP: 196.168.x.x
-Port: 10443
+Port: 10xxx
 Username: (your account)
 Password: (your password)
 ## 🔹 3. Install Required Packages
