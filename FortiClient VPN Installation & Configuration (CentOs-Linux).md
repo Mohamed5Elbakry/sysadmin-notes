@@ -3,7 +3,7 @@
 
 This guide explains how to install and configure Fortinet SSL VPN on CentOS using openfortivpn.
 
-##🔹 2. Requirements
+## 🔹 2. Requirements
 CentOS / RHEL / Linux machine
 Internet connection
 VPN details:
@@ -11,12 +11,12 @@ Gateway IP: 196.168.x.x
 Port: 10443
 Username: (your account)
 Password: (your password)
-##🔹 3. Install Required Packages
+## 🔹 3. Install Required Packages
 Step 1: Enable EPEL repository
 sudo yum install epel-release -y
 Step 2: Install openfortivpn
 sudo yum install openfortivpn -y
-##🔹 4. Configure VPN
+## 🔹 4. Configure VPN
 Step 1: Create config file
 sudo nano /etc/openfortivpn/config
 Step 2: Add configuration
@@ -32,7 +32,7 @@ Step 3: Save file
 Press CTRL + X
 Press Y
 Press Enter
-##🔹 5. Connect to VPN
+## 🔹 5. Connect to VPN
 
 Run:
 
@@ -40,7 +40,7 @@ sudo openfortivpn
 
 Then enter your VPN password when prompted.
 
-##🔹 6. Verify Connection
+## 🔹 6. Verify Connection
 
 Successful connection will show:
 
@@ -62,7 +62,7 @@ Web portals (vCenter, etc.)
 Press:
 
 CTRL + C
-##🔹 9. Troubleshooting
+## 🔹 9. Troubleshooting
 ❌ Error: Specify a valid host:port
 Config file missing or incorrect
 ❌ Certificate error
@@ -77,7 +77,7 @@ Check:
 VPN connected
 Correct IP
 Firewall rules
-##🔹 10. Optional (Direct Command Method)
+## 🔹 10. Optional (Direct Command Method)
 
 Instead of config file:
 
